@@ -16,11 +16,11 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/29a3acbbab9de5f45a5fe.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6497757690').split()]
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'codeflix_bots').split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001868871195"))
-    DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1001868871195"))
+    START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/75frrs.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6586630448').split()]
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'AniHorizon').split(',')
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "1002656577472"))
+    DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1002538016577"))
     
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
