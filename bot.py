@@ -15,7 +15,7 @@ import time
 pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
 
 # Setting SUPPORT_CHAT directly here
-SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1001953724858"))
+SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1002154446015"))
 
 PORT = Config.PORT
 
@@ -44,7 +44,8 @@ class Bot(Client):
             app = web.AppRunner(await web_server())
             await app.setup()       
             await web.TCPSite(app, "0.0.0.0", PORT).start()     
-        print(f"{me.first_name} Is Started.....✨️")
+        print(f"{me.first_name} ɪᴛ ʜᴀs ʙᴇɢᴜɴ... ✨
+𝘓𝘪𝘬𝘦 𝘵𝘪𝘮𝘦 𝘧𝘭𝘰𝘸𝘪𝘯𝘨 𝘰𝘯𝘤𝘦 𝘮𝘰𝘳𝘦...")
 
         # Calculate uptime using timedelta
         uptime_seconds = int(time.time() - self.start_time)
@@ -61,12 +62,14 @@ class Bot(Client):
                     chat_id=chat_id,
                     photo=Config.START_PIC,
                     caption=(
-                        "**ᴀɴʏᴀ ɪs ʀᴇsᴛᴀʀᴛᴇᴅ ᴀɢᴀɪɴ  !**\n\n"
-                        f"ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​: `{uptime_string}`"
+                        "**ꜰʀɪᴇʀᴇɴ ɪs ʙᴇɢɪɴɴɪɴɢ ᴀɢᴀɪɴ...
+𝘐𝘵'𝘴 𝘢 𝘴𝘵𝘳𝘢𝘯𝘨𝘦 𝘧𝘦𝘦𝘭𝘪𝘯𝘨, 𝘳𝘦𝘵𝘶𝘳𝘯𝘪𝘯𝘨 𝘵𝘰 𝘰𝘭𝘥 𝘮𝘰𝘮𝘦𝘯𝘵𝘴...
+
+ɪ ʜᴀᴠᴇɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ: `{uptime_string}`"
                     ),
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/codeflix_bots")
+                            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/AniHorizon")
                         ]]
                     )
                 )
