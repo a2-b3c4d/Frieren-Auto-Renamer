@@ -5,7 +5,7 @@ from pyrogram.errors import UserNotParticipant
 from config import Config
 
 FORCE_SUB_CHANNELS = Config.FORCE_SUB_CHANNELS
-IMAGE_URL = "https://graph.org/file/a27d85469761da836337c.jpg"
+IMAGE_URL = "https://files.catbox.moe/c9wg0t.jpg"
 
 async def not_subscribed(_, __, message):
     for channel in FORCE_SUB_CHANNELS:
@@ -44,7 +44,8 @@ async def forces_sub(client, message):
         ]
     )
 
-    text = "**ʙᴀᴋᴋᴀ!!, ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ ᴛᴏ ᴀʟʟ ʀᴇǫᴜɪʀᴇᴅ ᴄʜᴀɴɴᴇʟs, ᴊᴏɪɴ ᴛʜᴇ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟs ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ**"
+    text = <b>“You haven't yet walked all the paths...<br>
+Join the channels if you wish to continue your journey.”</b>
     await message.reply_photo(
         photo=IMAGE_URL,
         caption=text,
@@ -65,7 +66,7 @@ async def check_subscription(client, callback_query: CallbackQuery):
             not_joined_channels.append(channel)
 
     if not not_joined_channels:
-        new_text = "**ʏᴏᴜ ʜᴀᴠᴇ ᴊᴏɪɴᴇᴅ ᴀʟʟ ᴛʜᴇ ʀᴇǫᴜɪʀᴇᴅ ᴄʜᴀɴɴᴇʟs. ᴛʜᴀɴᴋ ʏᴏᴜ! 😊 /start ɴᴏᴡ**"
+        new_text = "ʏᴏᴜ ʜᴀᴠᴇ ᴊᴏɪɴᴇᴅ ᴀʟʟ ᴛʜᴇ ɴᴇᴄᴇssᴀʀʏ ᴘᴀᴛʜs. ✨ᴛʜᴀɴᴋ ʏᴏᴜ. ɴᴏᴡ, ʏᴏᴜʀ ᴊᴏᴜʀɴᴇʏ ᴄᴏɴᴛɪɴᴜᴇs. 🌿"
         if callback_query.message.caption != new_text:
             await callback_query.message.edit_caption(
                 caption=new_text,
@@ -91,7 +92,7 @@ async def check_subscription(client, callback_query: CallbackQuery):
             ]
         )
 
-        text = "**ʏᴏᴜ ʜᴀᴠᴇ ᴊᴏɪɴᴇᴅ ᴀʟʟ ᴛʜᴇ ʀᴇǫᴜɪʀᴇᴅ ᴄʜᴀɴɴᴇʟs. ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴛʜᴇ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟs ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ**"
+        text = "ʏᴏᴜ'ᴠᴇ ᴊᴏɪɴᴇᴅ ᴀʟʟ ᴛʜᴇ ɴᴇᴄᴇssᴀʀʏ ᴄʜᴀɴɴᴇʟs... ᴛʜᴀɴᴋ ʏᴏᴜ. ᴘʟᴇᴀsᴇ ᴘʀᴏᴄᴇᴇᴅ ᴛᴏ ᴛʜᴇ ᴜᴘᴅᴀᴛᴇs 🌿✨"
         if callback_query.message.caption != text:
             await callback_query.message.edit_caption(
                 caption=text,
