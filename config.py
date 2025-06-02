@@ -97,7 +97,7 @@ PROGRESS_BAR = """\n
 ᴅᴏɴᴀᴛɪᴏɴs ᴀʀᴇ ʀᴇᴀʟʟʏ ᴀᴘᴘʀᴇᴄɪᴀᴛᴇᴅ — ɪᴛ ʜᴇʟᴘs ɪɴ ʙᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ.
 
 <u>ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛʜʀᴏᴜɢʜ ᴜᴘɪ</u>  
-Gmail ɪᴅ: <code>tharunfitfun204@gmail.com</code>"""
+Gmail ɪᴅ: <code>subsquad05@gmail.com</code>"""
 
 PREMIUM_TXT = """<b>ᴜᴘɢʀᴀᴅᴇ ᴛᴏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ sᴇʀᴠɪᴄᴇ ᴀɴᴅ ᴇɴJᴏʏ ᴇxᴄʟᴜsɪᴠᴇ ғᴇᴀᴛᴜʀᴇs:
 
@@ -106,7 +106,7 @@ PREMIUM_TXT = """<b>ᴜᴘɢʀᴀᴅᴇ ᴛᴏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ sᴇ
 
 • ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
 
-➲ ꜰɪʀsᴛ sᴛᴇᴘ: ᴘᴀʏ ᴀᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀɴ ᴛᴏ: <code>tharunfitfun204@gmail.com</code>
+➲ ꜰɪʀsᴛ sᴛᴇᴘ: ᴘᴀʏ ᴀᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀɴ ᴛᴏ: <code>subsquad05@gmail.com</code>
 ➲ sᴇᴄᴏɴᴅ sᴛᴇᴘ: ᴛᴀᴋᴇ ᴀ sᴄʀᴇᴇɴꜱʜᴏᴛ ᴏғ ᴛʜᴇ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ sʜᴀʀᴇ ɪᴛ ʜᴇʀᴇ: @Momo_Ayase_bot
 ➲ ᴀʟᴛᴇʀɴᴀᴛɪᴠᴇ: ᴏʀ ᴜᴘʟᴏᴀᴅ sᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ ᴀɴᴅ ʀᴇᴘʟʏ ᴡɪᴛʜ /bought
 
@@ -121,7 +121,7 @@ Pʀɪᴄɪɴɢ:
 ➜ ᴅᴀɪʟʏ ᴘʀᴇᴍɪᴜᴍ: ₹5/ᴅᴀʏ  
 ➜ ʙᴏᴛ ʜᴏsᴛɪɴɢ: ᴄᴏɴᴛᴀᴄᴛ @Tharun_Stryker
 
-➲ Gmail ɪᴅ - <code>tharunfitfun204@gmail.com</code>
+➲ Gmail ɪᴅ - <code>subsquad05@gmail.com</code>
 
 ‼️ Uᴘʟᴏᴀᴅ ᴘᴀʏᴍᴇɴᴛ sᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ ᴀɴᴅ ʀᴇᴘʟʏ ᴡɪᴛʜ /bought.</b>"""
 
