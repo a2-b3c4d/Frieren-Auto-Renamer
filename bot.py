@@ -65,14 +65,13 @@ class Bot(Client):
         "**ꜰʀɪᴇʀᴇɴ ɪs ʙᴇɢɪɴɴɪɴɢ ᴀɢᴀɪɴ...**\n"
         "𝘐𝘵'𝘴 𝘢 𝘴𝘵𝘳𝘢𝘯𝘨𝘦 𝘧𝘦𝘦𝘭𝘪𝘯𝘨, 𝘳𝘦𝘵𝘶𝘳𝘯𝘪𝘯𝘨 𝘵𝘰 𝘰𝘭𝘥 𝘮𝘰𝘮𝘦𝘯𝘵𝘴...\n\n"
         f"ɪ ʜᴀᴠᴇɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ: `{uptime_string}`"
+    ),
+    reply_markup=InlineKeyboardMarkup(
+        [[
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/AniHorizon")
+        ]]
     )
-),
-                    reply_markup=InlineKeyboardMarkup(
-                        [[
-                            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/AniHorizon")
-                        ]]
-                    )
-                )
+        )
 
             except Exception as e:
                 print(f"Failed to send message in chat {chat_id}: {e}")
