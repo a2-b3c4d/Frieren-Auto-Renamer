@@ -44,8 +44,8 @@ class Bot(Client):
             app = web.AppRunner(await web_server())
             await app.setup()       
             await web.TCPSite(app, "0.0.0.0", PORT).start()     
-        print(f"{me.first_name} ɪᴛ ʜᴀs ʙᴇɢᴜɴ... ✨
-𝘓𝘪𝘬𝘦 𝘵𝘪𝘮𝘦 𝘧𝘭𝘰𝘸𝘪𝘯𝘨 𝘰𝘯𝘤𝘦 𝘮𝘰𝘳𝘦...")
+        print(f"""{me.first_name} ɪᴛ ʜᴀs ʙᴇɢᴜɴ... ✨
+𝓛𝓲𝓴𝓮 𝓽𝓲𝓶𝓮 𝓯𝓵𝓸𝔀𝓲𝓷𝓰 𝓸𝓷𝓬𝓮 𝓶𝓸𝓻𝓮...""")
 
         # Calculate uptime using timedelta
         uptime_seconds = int(time.time() - self.start_time)
