@@ -89,8 +89,7 @@ PROGRESS_BAR = """\n
 🔥 <b>» Speed</b> : {3}/s
 ⚡ <b>» ETA</b> : {4} """
     
-    
-    DONATE_TXT = """<blockquote>ᴛʜᴀɴᴋs ғᴏʀ sʜᴏᴡɪɴɢ ɪɴᴛᴇʀᴇsᴛ ɪɴ ᴅᴏɴᴀᴛɪᴏɴ</blockquote>
+ DONATE_TXT = """<blockquote>ᴛʜᴀɴᴋs ғᴏʀ sʜᴏᴡɪɴɢ ɪɴᴛᴇʀᴇsᴛ ɪɴ ᴅᴏɴᴀᴛɪᴏɴ</blockquote>
 
 <b><i>💞 ɪꜰ ʏᴏᴜ ʟɪᴋᴇ ᴏᴜʀ ʙᴏᴛ, ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ₹10, ₹20, ₹50, ₹100, ᴇᴛᴄ.</i></b>
 
