@@ -33,8 +33,8 @@ async def start(client, message: Message):
             InlineKeyboardButton("• ᴍʏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs •", callback_data='help')
         ],
         [
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs', url='https://t.me/AniHorizon'),
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ •', url='https://t.me/+LoikdCDiZfUxMzI1')
+            InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/AniHorizon"),
+            InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/+LoikdCDiZfUxMzI1")
         ],
         [
             InlineKeyboardButton('• ᴀʙᴏᴜᴛ', callback_data='about'),
