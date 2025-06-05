@@ -8,7 +8,6 @@ import subprocess
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-import codeflixbots  # Assuming this is your custom module
 
 logger = logging.getLogger(__name__)
 
