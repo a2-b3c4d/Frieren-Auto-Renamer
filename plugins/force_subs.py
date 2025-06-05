@@ -44,8 +44,7 @@ async def forces_sub(client, message):
         ]
     )
 
-    text = <b>“You haven't yet walked all the paths...<br>
-Join the channels if you wish to continue your journey.”</b>
+    text = "<b>𝓣𝓱𝓸𝓾 𝓱𝓪𝓼𝓽 𝓷𝓸𝓽 𝔂𝓮𝓽 𝔀𝓪𝓵𝓴𝓮𝓭 𝓪𝓵𝓵 𝓽𝓱𝓮 𝓹𝓪𝓽𝓱𝓼...<br>𝓙𝓸𝓲𝓷 𝓽𝓱𝓮 𝓬𝓱𝓪𝓷𝓷𝓮𝓵𝓼 𝓲𝓯 𝓽𝓱𝓸𝓾 𝔀𝓲𝓼𝓱𝓮𝓼𝓽 𝓽𝓸 𝓬𝓸𝓷𝓽𝓲𝓷𝓾𝓮 𝓽𝓱𝔂 𝓳𝓸𝓾𝓻𝓷𝓮𝔂.</b>"
     await message.reply_photo(
         photo=IMAGE_URL,
         caption=text,
