@@ -144,9 +144,8 @@ async def auto_rename_files(client, message):
     media_preference = await codeflixbots.get_media_preference(user_id)
 
     if not format_template:
-        return await message.reply_text("ꜱᴇᴛ ᴀɴ ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ ғᴏʀᴍᴀᴛ ғɪʀꜱᴛ... ᴜꜱɪɴɢ /autorename
-ɪᴛ ᴍɪɢʜᴛ ɴᴏᴛ ꜱᴇᴇᴍ ɪᴍᴘᴏʀᴛᴀɴᴛ, ʙᴜᴛ ɪᴛ ᴍᴀᴛᴛᴇʀꜱ ɪɴ ᴛʜᴇ ʟᴏɴɢ ʀᴜɴ...")
-
+        return await message.reply_text("""ꜱᴇᴛ ᴀɴ ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ ғᴏʀᴍᴀᴛ ғɪʀꜱᴛ... ᴜꜱɪɴɢ /autorename
+ɪᴛ ᴍɪɢʜᴛ ɴᴏᴛ ꜱᴇᴇᴍ ɪᴍᴘᴏʀᴛᴀɴᴛ, ʙᴜᴛ ɪᴛ ᴍᴀᴛᴛᴇʀꜱ ɪɴ ᴛʜᴇ ʟᴏɴɢ ʀᴜɴ...""")
     # Extract information from the incoming file name
     if message.document:
         file_id = message.document.file_id
