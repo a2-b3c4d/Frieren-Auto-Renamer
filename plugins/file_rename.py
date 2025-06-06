@@ -229,8 +229,8 @@ async def auto_rename_files(client, message):
 
         if c_thumb:
             ph_path = await client.download_media(c_thumb)
-            print(f"ᴛʜᴜᴍʙɴᴀɪʟ... ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ꜱᴜᴄᴄᴇꜱꜱ갻ᴜʟʟʏ.
-ɪᴛ'ꜱ ᴀ ꜱᴍᴀʟʟ ꜱᴛᴇᴘ, ʙᴜᴛ ᴇᴠᴇʀʏ ꜱᴛᴇᴘ ʜᴀꜱ ɪᴛꜱ ᴘᴜʀᴘᴏꜱ.... Path: {ph_path}")
+            print(f"""ᴛʜᴜᴍʙɴᴀɪʟ... ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ.
+ɪᴛ'ꜱ ᴀ ꜱᴍᴀʟʟ ꜱᴛᴇᴘ, ʙᴜᴛ ᴇᴠᴇʀʏ ꜱᴛᴇᴘ ʜᴀꜱ ɪᴛꜱ ᴘᴜʀᴘᴏꜱᴇ.... Path: {ph_path}""")
         elif media_type == "video" and message.video.thumbs:
             ph_path = await client.download_media(message.video.thumbs[0].file_id)
 
